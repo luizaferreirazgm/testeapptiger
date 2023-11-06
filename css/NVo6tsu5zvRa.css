@@ -26,6 +26,11 @@ img {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12%;
 }
 
 .gerador ul li {
@@ -92,6 +97,14 @@ img {
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .gerador ul {
+        top: 16%;
+    }  
+
+}
+
 @media screen and (max-width: 767px) {
     .gerador ul li {
         height: 60px !important;
@@ -118,3 +131,30 @@ img {
         height: 38px !important;
     }
 }
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    .gerador .tigerimage {
+        min-width: 550px;
+    }  
+}
+
+@media screen and (min-width: 992px) and (max-width: 1000px){
+    .gerador ul {
+        left: 60%;
+        width: 500px;
+    }    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .gerador ul {
+        left: 60%;
+        width: 500px;
+    }  
+
+    .gerador .btn-gerar {
+        left: 60%;
+        width: 500px;
+    }
+}
+
+

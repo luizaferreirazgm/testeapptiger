@@ -1,8 +1,12 @@
 {
-    "routes": [
-      {
-        "src": "/contapremium",
-        "dest": "/premium.html"
-      }
-    ]
-  }
+  "routes": [
+    {
+      "src": "/contapremium",
+      "dest": "/premium.html"
+    },
+    {
+      "src": "/jogueagora",
+      "dest": "/falha.html"
+    }
+  ]
+}
